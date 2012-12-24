@@ -6,8 +6,8 @@ define(function(require, exports, module){
 	var a = require('./test.coffee');
 	console.log(a.foo);	// test for coffee, should be deleted
 
-	var dust = require('../../dust/src/dust.js');
-	// var dust = require('dust');
+	//var dust = require('../../dust/src/dust.js');
+	var dust = require('dust');
 
 	var tpl = require('./dashboard.tpl');
 

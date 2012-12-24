@@ -9,3 +9,7 @@
 2. 在deploy环境下，该如何配置package.json中的dependencies的路径呢？和app.js中require的路径不一样吗？
 
 
+主要是这个文件：
+assets/dashboard/src/dashboard.js 9，10两行，选择某种路径表达方式，会导致页面加载问题
+
+
