@@ -1,0 +1,22 @@
+/* reset */
+html{color:#000;background:#FFF;padding: 0; margin:0;}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+li{list-style:none;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+body{font:16px/1.231 "冬青黑","Microsoft YaHei",arial,helvetica,clean,sans-serif;*font-size:small;*font:x-small;}
+a{text-decoration:none; color: #000;}
+/*for clear the effect of float height*/
+.clear:after {
+  content: ".";
+  display: block;
+  height: 0;
+  font-size: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clear {
+  zoom:1;
+}

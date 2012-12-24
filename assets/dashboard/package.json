@@ -1,0 +1,11 @@
+{
+    "name": "dashboard",
+    "parent": "../package.json",
+    "dependencies": {
+        "jquery":"gallery/jquery/1.8.2/jquery",
+    },
+    "tests": ["dashboard"],
+    "output": {
+        "dashboard.js": "."
+    }
+}

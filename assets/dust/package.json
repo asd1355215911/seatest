@@ -1,0 +1,10 @@
+{
+    "name": "dust",
+    "parent": "../package.json",
+    "dependencies": {
+    },
+    "tests": ["dust"],
+    "output": {
+        "dust.js": "."
+    }
+}

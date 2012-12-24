@@ -1,0 +1,11 @@
+{
+    "name": "base",
+    "parent": "../package.json",
+    "dependencies": {
+        "$":"$"
+    },
+    "tests": ["base"],
+    "output": {
+        "base.js": "."
+    }
+}
